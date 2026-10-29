@@ -1,53 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Document</title>
 </head>
 <body>
-    <fieldset>
-        <form action="#">
-        <h1 align="center "> Hotel Booking Form</h1>
-        <label for="name">Full Name:</label>
-        <input type="text" name="name" id="name">
+    <h1>Hotel Room Booking Form</h1>
+    <label for="Name">Full Name:</label>
+            <input type="text" name="name" id="name">
+
         <br><br>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email">
+
+        <br><br>
+        
+            <label for="Phone">Phone Number:</label>
+            <input type="tel" name="Phone" id="Phone">
         <br><br>
 
-        <label for="tel">Phone:</label>
-        <input type="tel" name="tel" id="tel">
+            <label for="Check-in">Check-in Date:</label>
+            <input type="date" name="Check-in" id="Check-in">
         <br><br>
 
-        <label for="date">Check-in Date:</label>
-        <input type="date" name="date" id="date">
+            <label for="Check-out">Check-out Date:</label>
+            <input type="date" name="Check-out" id="Check-out">
         <br><br>
 
-        <label for="date">Check-out Date:</label>
-        <input type="date" name="date" id="date">
-        <br><br>
-
-        <label for="room">Room Type:</label>
-            <select name="room" id="room">
-                <option value="Single Room">Single Room</option>
-                <option value="Double Room">Double Room</option>
+            <label for="Room Type">Room Type:</label>
+            <select name="Room Type" id="Room Type">
+                <option value="Single">Single</option>
+                <option value="Double">Double</option>
             </select>
-            <br><br>
-
-        <label for="number">Number of Guests:</label>
-        <input type="number" name="number" id="number">
         <br><br>
 
-        <label for="requests">Special Requests:</label>
-        <textarea name="requests" id="requests"></textarea>
-        <br><br>
+        <label for="Special Requests">Special Requests:</label>
+    <br>
+    <textarea name="Special Requests" id="Special Requests" rows="4" cols="50"></textarea>
 
-        <input type="submit" value="Book Now">&nbsp;
-        <input type="reset" value="Reset Form">
+    <br><br>
 
-        </form>
-    </fieldset>
+    <input type="submit" value="Book Now">
+    <input type="reset" value="Reset Form">
+
+            
 </body>
 </html>
